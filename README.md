@@ -7,6 +7,7 @@
 </p>
 
 <hr>
+<img src="https://github.com/user-attachments/assets/de8ed572-4d84-42bf-8e00-9f432123161e" />
 
 ### 🛡️ What is CORS Misconfiguration?
 CORS Misconfiguration is a weakness in the server configuration that governs the cross-origin resource sharing mechanism. CORS that is not properly configured can allow:
