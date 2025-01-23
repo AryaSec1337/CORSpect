@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/rastating/wordpress-exploit-framework/gh-pages/static/wordpress-exploit-framework-200px.png" /></p>
+<p align="center"><img src="https://i.imgur.com/8kltxBa.png" /></p>
 
 <h1 align="center">WordPress Exploit Framework</h1>
 <p align="center">
