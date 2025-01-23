@@ -1,6 +1,6 @@
 <p align="center"><img src="https://i.imgur.com/8kltxBa.png" /></p>
 
-<h1 align="center">🚀 CORS Misconfiguration Scanner</h1>
+<h1 align="center">CORS Misconfiguration Scanner</h1>
 
 <p align="center">
   A Python framework designed to aid security testing of CORS (Cross-Origin Resource Sharing) configurations.
