@@ -46,6 +46,9 @@ CORS Misconfiguration is a weakness in the server configuration that governs the
 7. 🎯 Automatic Fallback to Bypass: [🚨NEW]
     - Automatically switch to payload bypass mechanism when server restriction detection is encountered, ensuring higher analysis success rate.
 
+### NEW Feature
+![image](https://github.com/user-attachments/assets/72f6127c-ba94-48c0-82e6-d7e08ec278b7)
+
 ### 🛠️ Installation
 To install CORSpect.py, make sure you have Python version 3.6 or later installed, then download this tools file from your repository or directory.
 
