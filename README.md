@@ -18,13 +18,33 @@ CORS Misconfiguration is a weakness in the server configuration that governs the
 ### ✨ Key Features
 
 1. 🔍 Detects Vulnerable CORS Headers:
-Scans for headers such as Access-Control-Allow-Origin and Access-Control-Allow-Credentials.
-2. 📊 Visual Report:
-Displays the security status of each domain with color coding using Colorama.
+    - Scan headers such as Access-Control-Allow-Origin and Access-Control-Allow-Credentials.
+    - Detects unsafe configurations, such as wildcard origin (*) or null origin.
+
+2. 📊 Visual Report with Icons:
+    - Displays the security status of the domain with icons and color codes.
+    - Icons reflect status: ✅ success, ❌ failure, 🔍 detection, 🚨 error.
+
 3. 📁 Multi-Domain Support:
-Checks multiple domains from the input file.
-4. ⚡ Easy to Use
-Simple design for easy vulnerability analysis.
+    - Supports checking multiple domains of the input file automatically.
+
+4. ⚡ Easy to Use:
+    - Simple design with a scanning flow that goes straight to the heart of vulnerability analysis.
+
+5. 🛠️ Bypass Attempts for Restricted Responses: [🚨NEW]
+    - If the server responds with a 403 (Forbidden) or 418 (I'm a teapot) status, these tools automatically try various bypass payloads.
+    - Supports popular payloads such as: - X-Original-URL
+    - X-Forwarded-Host
+    - X-Custom-IP-Authorization
+    - X-Forwarded-For
+    - And there are many more.
+
+6. 📂 Detailed Response Analysis: [🚨NEW]
+    - Analyzing server responses for additional messages, such as: - Error messages from the server (for example, “Exploit activity detected!”).
+    - Related headers (Access-Control-Allow-Origin and others).
+
+7. 🎯 Automatic Fallback to Bypass: [🚨NEW]
+    - Automatically switch to payload bypass mechanism when server restriction detection is encountered, ensuring higher analysis success rate.
 
 ### 🛠️ Installation
 To install CORSpect.py, make sure you have Python version 3.6 or later installed, then download this tools file from your repository or directory.
